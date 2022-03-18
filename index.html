@@ -11,10 +11,7 @@
     <div class="container">
         <h1 class="page-title">Poke-Trunfo</h1>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt=""><br>
-        
-    
-        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
-    
+        <!-- Como trocar essa logo por uma imagem mais bonitinha e relacionada com o tema do game? -->
         <form id="form">
           <h2>Escolha sua estratégia<br>de combate</h2>
     
@@ -25,7 +22,8 @@
                 <h3></h3>
               </div>
             </div>
-            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Lutar</button>
+            <button class="button-sortear" onclick="sortearCarta()" id="btnSortear"><img src="https://static.thenounproject.com/png/219513-200.png" height="80" width="80"/><br>Sortear carta</button>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false"><img src="https://cdn0.iconfinder.com/data/icons/pokemon-go-glyph-black/2048/8316_-_Battle-512.png" height ="150" width="150" /></button>
             <div>
               <div id="carta-maquina" class="carta"><img src="https://kronozio.blob.core.windows.net/images/card/f61abd1f2b6f433390e5b53b75de5762_back.jpg" style=" width: inherit; height: inherit; position: absolute;"></div>
             </div>
